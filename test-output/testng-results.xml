@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-14T20:54:47 IST" name="Cordelia Cruise Suite" finished-at="2026-10-14T21:04:40 IST" duration-ms="592785">
+    <groups>
+    </groups>
+    <test started-at="2026-10-14T20:54:47 IST" name="Helper unit tests" finished-at="2026-10-14T20:54:48 IST" duration-ms="645">
+      <class name="com.cruise.tests.ParseUtilsTest">
+        <test-method signature="allDateTimesWithWeekday()[pri:0, instance:com.cruise.tests.ParseUtilsTest@145f66e3]" started-at="2026-10-14T20:54:47 IST" name="allDateTimesWithWeekday" finished-at="2026-10-14T20:54:48 IST" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allDateTimesWithWeekday -->
+        <test-method signature="allDatesInText()[pri:0, instance:com.cruise.tests.ParseUtilsTest@145f66e3]" started-at="2026-10-14T20:54:48 IST" name="allDatesInText" finished-at="2026-10-14T20:54:48 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allDatesInText -->
+        <test-method signature="dateAfterLabelDoesNotMixEmbarkAndDisembark()[pri:0, instance:com.cruise.tests.ParseUtilsTest@145f66e3]" started-at="2026-10-14T20:54:48 IST" name="dateAfterLabelDoesNotMixEmbarkAndDisembark" finished-at="2026-10-14T20:54:48 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateAfterLabelDoesNotMixEmbarkAndDisembark -->
+        <test-method signature="dateParsing()[pri:0, instance:com.cruise.tests.ParseUtilsTest@145f66e3]" started-at="2026-10-14T20:54:48 IST" name="dateParsing" finished-at="2026-10-14T20:54:48 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateParsing -->
+        <test-method signature="dateTimeAfterLabel()[pri:0, instance:com.cruise.tests.ParseUtilsTest@145f66e3]" started-at="2026-10-14T20:54:48 IST" name="dateTimeAfterLabel" finished-at="2026-10-14T20:54:48 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateTimeAfterLabel -->
+        <test-method signature="dateTimeParsing()[pri:0, instance:com.cruise.tests.ParseUtilsTest@145f66e3]" started-at="2026-10-14T20:54:48 IST" name="dateTimeParsing" finished-at="2026-10-14T20:54:48 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateTimeParsing -->
+        <test-method signature="emiPriceFromCardText()[pri:0, instance:com.cruise.tests.ParseUtilsTest@145f66e3]" started-at="2026-10-14T20:54:48 IST" name="emiPriceFromCardText" finished-at="2026-10-14T20:54:48 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiPriceFromCardText -->
+        <test-method signature="missingPortsIsCaseInsensitive()[pri:0, instance:com.cruise.tests.ParseUtilsTest@145f66e3]" started-at="2026-10-14T20:54:48 IST" name="missingPortsIsCaseInsensitive" finished-at="2026-10-14T20:54:48 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- missingPortsIsCaseInsensitive -->
+        <test-method signature="nightsDays()[pri:0, instance:com.cruise.tests.ParseUtilsTest@145f66e3]" started-at="2026-10-14T20:54:48 IST" name="nightsDays" finished-at="2026-10-14T20:54:48 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nightsDays -->
+        <test-method signature="nightsFromTitle()[pri:0, instance:com.cruise.tests.ParseUtilsTest@145f66e3]" started-at="2026-10-14T20:54:48 IST" name="nightsFromTitle" finished-at="2026-10-14T20:54:48 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nightsFromTitle -->
+        <test-method signature="portsFromRouteLine()[pri:0, instance:com.cruise.tests.ParseUtilsTest@145f66e3]" started-at="2026-10-14T20:54:48 IST" name="portsFromRouteLine" finished-at="2026-10-14T20:54:48 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- portsFromRouteLine -->
+        <test-method signature="portsWithBulletAndPrefix()[pri:0, instance:com.cruise.tests.ParseUtilsTest@145f66e3]" started-at="2026-10-14T20:54:48 IST" name="portsWithBulletAndPrefix" finished-at="2026-10-14T20:54:48 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- portsWithBulletAndPrefix -->
+        <test-method signature="priceInsideLongText()[pri:0, instance:com.cruise.tests.ParseUtilsTest@145f66e3]" started-at="2026-10-14T20:54:48 IST" name="priceInsideLongText" finished-at="2026-10-14T20:54:48 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceInsideLongText -->
+        <test-method signature="priceWithRupeeAndComma()[pri:0, instance:com.cruise.tests.ParseUtilsTest@145f66e3]" started-at="2026-10-14T20:54:48 IST" name="priceWithRupeeAndComma" finished-at="2026-10-14T20:54:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceWithRupeeAndComma -->
+        <test-method signature="priceWithoutNumberThrows()[pri:0, instance:com.cruise.tests.ParseUtilsTest@145f66e3]" started-at="2026-10-14T20:54:48 IST" name="priceWithoutNumberThrows" finished-at="2026-10-14T20:54:48 IST" duration-ms="8" status="PASS">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[No price in: Sold Out]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: No price in: Sold Out
+at com.cruise.utils.ParseUtils.parsePrice(ParseUtils.java:38)
+at com.cruise.tests.ParseUtilsTest.priceWithoutNumberThrows(ParseUtilsTest.java:33)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceWithoutNumberThrows -->
+      </class> <!-- com.cruise.tests.ParseUtilsTest -->
+    </test> <!-- Helper unit tests -->
+    <test started-at="2026-10-14T20:54:47 IST" name="Chromium run" finished-at="2026-10-14T21:04:40 IST" duration-ms="592785">
+      <class name="com.cruise.tests.SailingFlowTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.cruise.tests.SailingFlowTests@2de23121]" started-at="2026-10-14T21:01:01 IST" name="setUp" finished-at="2026-10-14T21:01:05 IST" duration-ms="3637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sailingFlow(com.cruise.utils.TestData$Rule)[pri:0, instance:com.cruise.tests.SailingFlowTests@2de23121]" started-at="2026-10-14T21:01:05 IST" name="sailingFlow" data-provider="sailings" finished-at="2026-10-14T21:02:31 IST" duration-ms="86310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[First SKY sailing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sailingFlow -->
+        <test-method is-config="true" signature="resetTabs()[pri:0, instance:com.cruise.tests.SailingFlowTests@2de23121]" started-at="2026-10-14T21:02:31 IST" name="resetTabs" finished-at="2026-10-14T21:02:31 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetTabs -->
+        <test-method signature="sailingFlow(com.cruise.utils.TestData$Rule)[pri:0, instance:com.cruise.tests.SailingFlowTests@2de23121]" started-at="2026-10-14T21:02:31 IST" name="sailingFlow" data-provider="sailings" finished-at="2026-10-14T21:03:35 IST" duration-ms="63631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[First EMPRESS sailing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sailingFlow -->
+        <test-method is-config="true" signature="resetTabs()[pri:0, instance:com.cruise.tests.SailingFlowTests@2de23121]" started-at="2026-10-14T21:03:35 IST" name="resetTabs" finished-at="2026-10-14T21:03:35 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetTabs -->
+        <test-method signature="sailingFlow(com.cruise.utils.TestData$Rule)[pri:0, instance:com.cruise.tests.SailingFlowTests@2de23121]" started-at="2026-10-14T21:03:35 IST" name="sailingFlow" data-provider="sailings" finished-at="2026-10-14T21:04:39 IST" duration-ms="63309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[First Lakshadweep sailing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sailingFlow -->
+        <test-method is-config="true" signature="resetTabs()[pri:0, instance:com.cruise.tests.SailingFlowTests@2de23121]" started-at="2026-10-14T21:04:39 IST" name="resetTabs" finished-at="2026-10-14T21:04:39 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetTabs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cruise.tests.SailingFlowTests@2de23121]" started-at="2026-10-14T21:04:39 IST" name="tearDown" finished-at="2026-10-14T21:04:40 IST" duration-ms="1096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cruise.tests.SailingFlowTests -->
+      <class name="com.cruise.tests.ListingTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.cruise.tests.ListingTests@22fcf7ab]" started-at="2026-10-14T20:54:47 IST" name="setUp" finished-at="2026-10-14T20:55:57 IST" duration-ms="70352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openListing()[pri:0, instance:com.cruise.tests.ListingTests@22fcf7ab]" started-at="2026-10-14T20:55:57 IST" name="openListing" finished-at="2026-10-14T20:57:01 IST" duration-ms="63967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openListing -->
+        <test-method signature="s1_listingLoads()[pri:0, instance:com.cruise.tests.ListingTests@22fcf7ab]" started-at="2026-10-14T20:57:01 IST" name="s1_listingLoads" description="S1 - count in heading equals number of cards" finished-at="2026-10-14T20:57:09 IST" duration-ms="7889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s1_listingLoads -->
+        <test-method is-config="true" signature="resetTabs()[pri:0, instance:com.cruise.tests.ListingTests@22fcf7ab]" started-at="2026-10-14T20:57:09 IST" name="resetTabs" finished-at="2026-10-14T20:57:10 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetTabs -->
+        <test-method is-config="true" signature="openListing()[pri:0, instance:com.cruise.tests.ListingTests@22fcf7ab]" started-at="2026-10-14T20:57:10 IST" name="openListing" finished-at="2026-10-14T20:57:19 IST" duration-ms="9455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openListing -->
+        <test-method signature="s2_priceCheckAndSorting()[pri:0, instance:com.cruise.tests.ListingTests@22fcf7ab]" started-at="2026-10-14T20:57:19 IST" name="s2_priceCheckAndSorting" description="S2 - EMI price &gt; 0 and sorting" finished-at="2026-10-14T21:00:11 IST" duration-ms="171329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s2_priceCheckAndSorting -->
+        <test-method is-config="true" signature="resetTabs()[pri:0, instance:com.cruise.tests.ListingTests@22fcf7ab]" started-at="2026-10-14T21:00:11 IST" name="resetTabs" finished-at="2026-10-14T21:00:11 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetTabs -->
+        <test-method is-config="true" signature="openListing()[pri:0, instance:com.cruise.tests.ListingTests@22fcf7ab]" started-at="2026-10-14T21:00:11 IST" name="openListing" finished-at="2026-10-14T21:00:22 IST" duration-ms="11547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openListing -->
+        <test-method signature="s3_cardDates()[pri:0, instance:com.cruise.tests.ListingTests@22fcf7ab]" started-at="2026-10-14T21:00:22 IST" name="s3_cardDates" description="S3 - end date minus start date equals N in &#039;N-Night&#039;" finished-at="2026-10-14T21:00:54 IST" duration-ms="31332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s3_cardDates -->
+        <test-method is-config="true" signature="resetTabs()[pri:0, instance:com.cruise.tests.ListingTests@22fcf7ab]" started-at="2026-10-14T21:00:54 IST" name="resetTabs" finished-at="2026-10-14T21:00:54 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetTabs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cruise.tests.ListingTests@22fcf7ab]" started-at="2026-10-14T21:00:54 IST" name="tearDown" finished-at="2026-10-14T21:01:01 IST" duration-ms="7264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cruise.tests.ListingTests -->
+    </test> <!-- Chromium run -->
+  </suite> <!-- Cordelia Cruise Suite -->
+</testng-results>

@@ -1,0 +1,24 @@
+{
+  "baseUrl": "https://www.cordeliacruises.com/upcoming-cruises",
+  "timeoutSeconds": 30,
+  "minCapacity": 1,
+  "maxCapacity": 6,
+  "labels": {
+    "resultsHeading": "Cruise Search Results",
+    "viewItinerary": "View Itinerary",
+    "bookNow": "Book Now",
+    "chooseCabin": "Choose Cabin",
+    "soldOut": "Sold Out",
+    "stepper": "Select Cabin",
+    "sortTrigger": "Sort",
+    "sortLowHigh": "Price Low To High",
+    "sortHighLow": "Price High To Low",
+    "sortEarliest": "Earliest Date",
+    "getOtp": "Get OTP"
+  },
+  "sailingRules": [
+	{ "name": "First SKY sailing",         "keywords": ["SKY"],     "wholeLine": true },
+	{ "name": "First EMPRESS sailing",     "keywords": ["EMPRESS"], "wholeLine": true },
+    { "name": "First Lakshadweep sailing", "keywords": ["Agatti", "Kavaratti", "Minicoy"] }
+  ]
+}

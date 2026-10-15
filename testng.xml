@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cordelia Cruise Suite" parallel="tests" thread-count="2">
+
+  <listeners>
+    <listener class-name="com.cruise.listeners.TestListener"/>
+  </listeners>
+
+  <test name="Helper unit tests">
+    <classes>
+      <class name="com.cruise.tests.ParseUtilsTest"/>
+    </classes>
+  </test>
+
+  <test name="Chromium run">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.cruise.tests.ListingTests"/>
+      <class name="com.cruise.tests.SailingFlowTests"/>
+    </classes>
+  </test>
+
+ <!--  <test name="Firefox run">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.cruise.tests.ListingTests"/>
+      <class name="com.cruise.tests.SailingFlowTests"/>
+    </classes> 
+  </test>-->
+</suite>
